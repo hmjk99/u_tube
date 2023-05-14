@@ -1,5 +1,5 @@
 .nav{
-  margin: 1rem;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,6 +7,9 @@
   position: fixed;
   top:0;
   left:0;
+  background-color: white;
+  border-bottom: 1px solid black;
+  z-index: 1;
 }
 #logo{
   width: 3rem;
@@ -27,4 +30,26 @@
   border: none;
   width: 17rem;
   height:2rem
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 100vh;
+  position: fixed;
+  top:4rem;
+  left: 0;
+  background-color: white;
+  border-right: 1px solid black;
+}
+.sidebar-button{
+  border: none;
+  background-color: white;
+  /* margin: 0.5rem 0 */
+}
+.home{
+  margin-left: 10rem;
+}
+#main{
+  margin-top: 4rem;
 }
